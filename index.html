@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Web design</title>
+
+
+      <!--Link to get font awesone libraries and font Icon
+
+     https://cdnjs.com/libraries/font-awesome/6.1.1
+
+     Link to get font awesone Icon
+
+     https://fontawesome.com/v4/icons/  
+    
+    
+      DOWNLOAD PHOTS IN  PEXEL  ---https://www.pexels.com/search/business/ 
+ 
+     -->
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   
+
+<div class="wrapper">    <!--WRAP ALL DIVS--->     <!-- need to be display grid to create 4 boxes-->
+
+    <!--NAVIGATION-->
+  
+    <div class="containerheader">
+
+        <header class="headers"> 
+             <h1>Jehros</h1>
+        </header>
+     
+     
+         <nav class="nav-links">
+                  <ul class="nav-menu">
+                      <li class="nav-item"><a herf="#">HOME</li></a>
+                      <li class="nav-item"><a herf="#">SERVICES</li></a>
+                      <li class="nav-item"><a herf="#">CONTACT</li></a>
+                      <li class="nav-item"><a herf="#">EVENT</li></a>
+                      <li class="nav-item"><a herf="#"><i class="fa fa-bell-o" aria-hidden="true"></i></li></a>
+                  </ul>
+         </nav>
+     
+         <div class="hamburger">
+           <a href="#" class="'toogle-button"><i class="fa fa-bars" aria-hidden="true" id="favcon"></i> </a>
+       </div>
+       
+      </div>
+
+
+
+
+
+    <!--TOP CONTAINER-->
+
+    <section class="top-container">          <!--display grid in area to create 3 boxes-->
+
+     <header class="showcase">          
+        <h1>Be a Web developer in 10 months!</h1>
+        <p>We teach students the necessarry skills to become a Full stack developer and earn 6 digits while working remotely.
+        </p>
+        <a href="#" class="btn">Read more</a>
+     </header>
+
+
+     <div class="top-box top-box-a">
+        <h4>Installment plan</h4>
+        <p class="price">$99/mo</p>
+        <a href="#" class="btn">Enroll now</a>
+     </div>
+
+     <div class="top-box top-box-b">
+        <h4>Full Amount</h4>
+        <p class="price">$1000 Upfront</p>
+        <a href="#" class="btn">Enroll now</a>
+     </div>
+    </section>
+
+
+    <!--BOXES SECTION grid for 4 boxes-->
+ 
+    <div class="offered">
+    <h1 class="offer">Offered Courses</h1>
+    </div>
+
+    <section class="boxes">              <!--display in grid the 4 boxes auto-fit in 1 grid box-->
+
+        <div class="box">
+            <i class="fa fa-pie-chart fa-3x" aria-hidden="true"></i>
+            <h3>Data Analytics</h3>
+            <p>Data analyst responsibilities include conducting full lifecycle analysis to include requirements, activities and design. Dataanalysts will develop analysis and reporting capabilities. They will also monitor performance and quality control plans to identify improvements.
+            </p>
+        </div>
+
+        <div class="box">
+            <i class="fa fa-globe fa-3x" aria-hidden="true"></i>
+            <h3>Software Engineering</h3>
+            <p>Software Engineer job description A Software Engineer is an IT professional who designs, develops and maintains computer software at a company. They use their creativity and technical skills and apply the principles of software engineering to help solve new and ongoing problems for an organization.
+            </p>
+        </div>
+
+        <div class="box">
+            <i class="fa fa-cog fa-3x" aria-hidden="true"></i>
+            <h3>Digital marketing</h3>
+            <p>Creating and promoting content on social media platforms such as Facebook, Twitter, and Instagram
+            </p>
+        </div>
+
+        <div class="box support">
+            <i class="fa fa-users fa-3x" aria-hidden="true"></i>
+            <h3>Support</h3>
+            <p>24/7 support.
+            </p>
+            <i class="fa fa-phone" aria-hidden="true">+63927934661</i><br>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </section>
+
+
+    <!---INfO SECTION-->
+ 
+    <section class="info">                          <!--display in grid template 2 columns-->
+        <img src="img/computer.jpg" alt="">
+    
+        <div>
+            <h1>Your Future is in good hands. Book for consultation!</h1>
+            <p>
+                By leveraging our course, you can become a Full stck developer in just a short period of time. We will teach you the necessary skills so you can land a high paying job.
+            </p>
+
+            <a href="#" class="btn btnInfo">Book now</a>
+        </div>
+
+    </section>
+
+  <div class="success-stories">
+    <h1 class="success">Success Stories</h1>
+ </div>
+
+    <section class="fortpolio">      <!--display in grid the 8 pictures auto-fit in 1 grid box-->
+       
+        <img src="gallary/pic1.jpg" alt="">
+        <img src="gallary/pic2.jpg" alt="">
+        <img src="gallary/pic3.jpg" alt="">
+        <img src="gallary/pic4.jpg" alt="">
+        <img src="gallary/pic5.jpg" alt="">
+        <img src="gallary/pic8.jpg" alt="">
+        <img src="gallary/pic9.jpg" alt="">
+        <img src="gallary/pic9.jpg" alt="">
+    </section>
+
+
+    <!-- Web developer field-->
+
+    <section class="web-container"> <!--display in grid the 3 web-boxes autofit in 1box-->
+
+        <div class="web-box" id="frontEnd">
+            <img src="img/img2/sorj1.jpeg" alt="">
+            <h3 class="web-text">Front-End web developer</h3>
+            <p class="description">A Front End Developer, or Front End Web Developer, is responsible for using their knowledge of programming languages to code user-side applications, including visual elements like menu bars, clickable buttons and the overall layout of websites or web applications.</p>
+            <a href="#" class="btn">Read more</a>
+
+        </div>
+
+  
+   <!-- Registration-->   
+        <div class="web-box" id="registrationForm">
+
+           <h1 >Registartion Form</h1> 
+
+            
+           <form name="registration" >
+               
+                <label class="text-info errorname">Name</label>
+                <input type="text" class="text-input" name="fullname" id="full-name" required></input>   
+             
+                <label class="text-info errorEmail">Email</label>
+                <input type="email" class="text-input" id="email-Address" name="email" required></input>
+                
+                <label class="text-info errorPhone">Phone#:</label>
+                <input type="text" class="text-input" id="phone-Number" name="phone" required></input>
+              
+                <a href="#" class="btn btnInfo" id="register">Register</a><br>
+           </form>
+        
+            <p class="summary">Book now and get 20% discount for the full course.</p>
+        </div>
+
+
+
+        <div class="web-box" id="backEnd">
+            <img src="img/img2/sorj.jpg" alt="">
+            <h3 class="web-text">Back-end web developer</h3>
+            <p class="description">A back-end web developer is responsible for server-side web application logic and integration of the work front-end web developers do. Back-end developers usually write web services and APIs used by front-end developers and mobile application developers.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>  
+    
+
+
+    <!-----SEARCH FIELD-->
+
+  <section class="Search-Container">
+
+     <div class="search-field">
+        <input type="text" class="search-input" name="text" placeholder="Search news..." id="search-text" class="search-input">
+        <button type="btn" class="button" id="search-btn">Search</button>
+     </div>
+  </section>
+
+
+   <h1 id="indicator"></h1>
+   <article class="field-area" id="field-areas">
+   
+    <div>
+   </div>
+   </article>
+
+    <!--FOOTER-->
+    <footer>
+       
+        <p>Jehros-Fortpolio &copy; 2023</p></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+    </footer>
+
+</div>  <!--END OF WRAP--->
+    
+
+</body>
+
+<script src="main.js"></script>
+</html>
